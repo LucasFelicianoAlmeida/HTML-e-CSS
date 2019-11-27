@@ -1,3 +1,4 @@
+
 body
 {
     margin: 0;
@@ -7,9 +8,8 @@ body
     justify-content: center;
     align-items: center;
     background: linear-gradient(-30deg,#1ec4e9 0%, #673ab7 50%,#262626 50%,#607d8d 100%);
-
 }
-a{
+.reflexiveButton{
     position: relative;
     padding: 25px 30px;
     text-decoration: none;
@@ -20,8 +20,9 @@ a{
     overflow: hidden;
     background: rgb(255,255,255,.1);
     box-shadow: 0 5px 5px rgb(0,0,0,.2);
+    
 }
-a::before
+.reflexiveButton::before
 {
     content: '';
     position: absolute;
@@ -32,7 +33,7 @@ a::before
     background: rgba(255,255,255,.1);
 
 }
-a:after
+.reflexiveButton:after
 {
     content: '';
     position: absolute;
@@ -43,7 +44,7 @@ a:after
     background: linear-gradient(90deg, transparent , rgb(255,255,255,.4), transparent);
     transition: 0.5s;
 }
-a:hover:after
+.reflexiveButton:hover:after
 {
     left: 100%;
 }
