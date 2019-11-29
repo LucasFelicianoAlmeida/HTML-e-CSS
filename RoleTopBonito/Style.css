@@ -23,6 +23,10 @@ header
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    flex-wrap: wrap;
+}
+nav li {
+    display: inline-block;
 }
 img.logo
 {
@@ -38,6 +42,7 @@ ul.nav__links li
 .nav__links li a
 {
     transition: all 0.3s ease 0s;
+    margin: 0 1.6em;
 }
 .nav__links li a:hover
 {
@@ -64,8 +69,23 @@ button:hover
 /* ______________________________Logo area________________*/
 #logo-area 
 {
-    flex-wrap: wrap;
-    height: 300px;
+    background-image: url(/img/busines.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 1em;
+    flex-
+    
+}   
+h2 > img {
+    height: 1.5em;
+    width: 1.5em;
+    vertical-align: middle;
+}
+header h1,h2
+{
+    
     
 }
 
