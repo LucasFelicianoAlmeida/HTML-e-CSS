@@ -26,13 +26,17 @@ header a
 header .logo a
 {
     background-image: url("img/logo.png");
+    display: inline-block;
     background: red;
+    height: 80px;
+    width: 300px;
 }
 section
 {
     color: #fff;
     display:flex;
     padding: 20px;
+    flex-direction: row;
 
 }
 ul
