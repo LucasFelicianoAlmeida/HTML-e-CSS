@@ -10,36 +10,34 @@
 
 a, li, button
 {
+    color: #fff;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: #fff;
     text-decoration: none;
 }
 
 header
 {
-    display: flex;
+    display: inline;
     justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
     flex-wrap: wrap;
 }
-nav li {
-    display: inline-block;
-}
-img.logo
+header a
 {
-    height:40px;
-    cursor: pointer;
+    margin-top: 40px;
 }
-ul.nav__links li
+
+
+ul li
 {
-    display: inline-block;
-    padding: 0 20px;
+    position: relative;
+    text-align: center;
+    height: 1.5em;
+    
 
 }
-.nav__links li a
+ul li a
 {
     transition: all 0.3s ease 0s;
     margin: 0 1.6em;
@@ -65,6 +63,11 @@ button:hover
     box-shadow: 0 0 10px rgba(116,0,94,1), 0 0 40px rgba(116,0,94,1), 0 0 10px rgba(116,0,94,1);
     
 }
+img.logo
+{
+    height:40px;
+    cursor: pointer;
+}
 
 /* ______________________________Logo area________________*/
 #logo-area 
@@ -75,7 +78,7 @@ button:hover
     background-size: cover;
     text-align: center;
     padding: 1em;
-    flex-
+    align-items: center;                                      
     
 }   
 h2 > img {
