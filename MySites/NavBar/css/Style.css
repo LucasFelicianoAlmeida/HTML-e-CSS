@@ -1,0 +1,123 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: Montserrat, sans-serif;
+}
+
+.section-container
+{
+    max-width: 1360px;
+    margin: 0 auto;   
+}
+
+nav ul
+{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav li
+{
+    list-style: none;
+    padding: 30px;
+}
+
+nav img
+{
+    height: 1.6em;
+    margin: 20px;
+}
+
+nav
+{
+    position: fixed;
+    background: #24252A;
+    width: 100%;
+    z-index: 999;
+
+}
+
+
+a
+{
+   text-decoration: none;
+   color: #fff; 
+}
+
+a:hover
+{
+    transition: all 0.4s ease 0s;
+    color: #FAA804;
+ 
+}
+
+
+header
+{
+    height: 500px;
+    
+}
+
+div.Hero-home
+{
+
+    
+    height: 600px;
+    background-image: url(../img/HeroAniversario.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+}
+.Hero-home-text h2,h2
+{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.Hero-home-text h1
+{
+    font-weight: 1000;
+    font-size: 4em;
+    text-transform: uppercase;
+    padding-top: 3em;
+    color: #fff;
+    
+    
+}
+
+.Hero-home-text h2
+{
+    color: #fff;
+    padding-bottom: 0.5em;
+}
+
+.texto-logo
+{
+    background: rgba(0,0,0, .6);
+}
+
+
+
+
+/* _________________________________________________footer______________________ */
+
+footer
+{
+    background: black;
+    height: 200px;
+}
