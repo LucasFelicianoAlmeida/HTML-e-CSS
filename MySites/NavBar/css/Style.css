@@ -11,6 +11,8 @@ body
     font-family: Montserrat, sans-serif;
 }
 
+
+
 .section-container
 {
     max-width: 1360px;
@@ -52,18 +54,21 @@ a
 {
    text-decoration: none;
    color: #fff; 
+   scroll-behavior: smooth;
 }
 
 li a:hover
 {
     transition: all 0.4s ease 0s;
     color: #FAA804;
- 
+    
+
 }
 
 ul > #roxo>a:hover
 {
     color: rgba(116,0,94,1);
+    
 }
 
 
@@ -90,16 +95,43 @@ header
 
 div.Hero-home
 {
-    max-width: 2400px;
-    height: 1300px;
+    width:100%;
+    height: 100vh;
+    background-position: center;
     overflow: hidden;
     background-image: url(../img/HeroCasamento.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    -webkit-animation-name: slide_animaton;
-    -webkit-animation-duration: 33s;
+    animation: amimate 16s ease-in-out infinite;
     
+}
+
+@keyframes animate
+{
+    0%, 100%{
+        background-image: url(../img/HeroCasamento.jpg);
+    }
+
+    15%{
+        background-image: url(../img/HeroAniversario.jpg);
+    }
+
+    30%{
+        background-image: url(../img/HeroCorporativo.jpg);
+    }
+
+    45%{
+        background-image: url(../img/HeroCorporativo2.jpg);
+    }
+
+    60%{
+        background-image: url(../img/HeroMesa.jpg);
+    }
+    75%{
+        background-image: url(../img/HeroCorporativo3.jpg);
+    }
+
 }
 
 
@@ -136,11 +168,17 @@ div.Hero-home
 .texto-logo
 {
     background: rgba(0,0,0, .6);
+    
+}
+
+.texto-logo > h1, h2
+{
+    cursor: pointer;
 }
 
 #Espaco
 {
-    height: 600px;
+    height: 100vh;
     background: black;
 }
 
